@@ -1,0 +1,29 @@
+{
+  "name": "vanilla_http_server",
+  "version": "0.1.0",
+  "description": "http server in vanilla node",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/**/*test.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lelamson/vanilla_http_server.git"
+  },
+  "author": "Lamson Le",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lelamson/vanilla_http_server/issues"
+  },
+  "homepage": "https://github.com/lelamson/vanilla_http_server",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "chai-http": "^1.0.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-simple-mocha": "^0.4.0",
+    "mocha": "^2.2.4"
+  }
+}
